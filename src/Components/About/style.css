@@ -4,7 +4,11 @@
     
 }
 .about h1{
-    color: rgb(201, 49, 74);
+    background: -webkit-linear-gradient(80deg,#DC3F89 0%,#903EDD 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:  cursive;
 }
 .aboutDiv{
 font-size: 19px;
@@ -13,5 +17,5 @@ margin: 10px auto;
 .fa-circle{
     color: white;
     font-size: 16px;
-    
+
 }
