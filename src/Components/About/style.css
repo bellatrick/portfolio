@@ -1,0 +1,17 @@
+.about{
+    flex-grow: 1;
+    text-align: start;
+    
+}
+.about h1{
+    color: rgb(201, 49, 74);
+}
+.aboutDiv{
+font-size: 19px;
+margin: 10px auto;
+}
+.fa-circle{
+    color: white;
+    font-size: 16px;
+    
+}

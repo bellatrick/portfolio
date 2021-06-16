@@ -1,0 +1,36 @@
+.work{
+    background-color: #101049;
+    border-radius: 12px;
+    margin-bottom: 60px;
+    padding: 60px;
+}
+.works{
+    display: flex;
+    flex-direction: column;
+
+}
+.codeLink{
+    display: flex;
+    justify-content: space-between;
+}
+.codeLink p:hover{
+    color: #0a0a18;
+    font-weight: bolder;
+    transform: scale(1.6);
+    cursor: pointer;
+}
+
+@media (min-width: 800px){
+  .works{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .work{
+      margin: 0px auto 50px auto;
+      padding: 70px;
+
+  }
+  .work:hover{
+    transform: scale(1.1);
+  }
+}
