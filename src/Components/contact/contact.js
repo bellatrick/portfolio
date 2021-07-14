@@ -7,10 +7,13 @@ const Contact = () => {
     const [message, setMessage]= useState('')
     const[button, setButton]=useState(false)
     const [EmailSent, setEmailSent]= useState(null)
-   const handleSubmit=(e)=>{
+    const handleSubmit=(e)=>{
        e.preventDefault()
        setButton(true)
        setEmailSent(true)
+       setName('')
+       setEmail('')
+       setMessage('')
    }
 
     return (
@@ -18,18 +21,19 @@ const Contact = () => {
             <h2>Let's talk</h2>
            <form onSubmit={handleSubmit}>
                <div className='inputName'>
-                <input type='text' placeholder='Your Name' value={name} onChange={(e)=>setName(e.target.value)}/>
+                <input type='text' required placeholder='Your Name' value={name} onChange={(e)=>setName(e.target.value)}/>
                </div>
                <div className='inputEmail'>
-                <input type='email' placeholder='Email' value={email} onChange={(e)=>setEmail(e.target.value)}/>
+                <input type='email' required placeholder='Email' value={email} onChange={(e)=>setEmail(e.target.value)}/>
                </div>
                <div>
                <h4 className='messageLabel'>Message</h4>
-               <textarea name="" id="" cols="40" rows="10" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
+               <textarea required name="" id="" cols="40" rows="10" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
                </div>
                <button className='button'>Shoot</button>
                {EmailSent&&<p>Email successfully sent</p>}
-               {EmailSent===false&&<p>Message not sent</p>}   
+               {EmailSent===false&&<p>Message not sent</p>} 
+        
            </form>
         </div>
     )

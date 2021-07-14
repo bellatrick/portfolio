@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import {Link} from 'react-router-dom'
 import img from '../Home/bitmoji.jpeg'
 
 const about = () => {
@@ -21,7 +22,7 @@ const about = () => {
         <p>University of Ilorin</p>
         <p>2014-2018</p>
         <h4>Projects</h4>
-        <p>Links to my works can be found <a href='https://bellafrontdev.netlify.app/works'>here</a></p>
+        <p>Links to my works can be found <Link to='/works'>here</Link></p>
          </section>
         </div>
     )

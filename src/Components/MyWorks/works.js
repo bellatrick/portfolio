@@ -9,13 +9,13 @@ const works = () => {
                 language={'Vanilla javascript + CSS'}
                 description={'A question and answer web application game'}
                 live={"https://samuelbusayojsproject.netlify.app"}
-                code={'https://https://github.com/bellatrick/jsproject'}
+                code={'https://github.com/bellatrick/jsproject'}
           />
               <Work name={'Rexha E-Commerce'}
                 language={'Vanilla javascript + SASS + Node JS'}
                 description={'An E-market app where users can add items to their cart and checkout their products'}
                 live={"https://rexha-group1.netlify.app"}
-                code={'https://https://github.com/Cykic/rexha'}
+                code={'https://github.com/Cykic/rexha'}
           />
               <Work name={'Whatsapp Clone'}
                 language={'React JS'}
