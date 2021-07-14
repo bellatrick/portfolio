@@ -1,19 +1,25 @@
 import React, {useState} from 'react'
 import './styles.css'
-
+const isEmpty=(data)=>{
+  if(data.trim()===''){
+      return true
+  }
+}
 const Contact = () => {
     const [name, setName]= useState('')
     const [email, setEmail]= useState('')
     const [message, setMessage]= useState('')
+    const [error, seterror] = useState(false)
     const[button, setButton]=useState(false)
     const [EmailSent, setEmailSent]= useState(null)
-    const handleSubmit=(e)=>{
+   const handleSubmit=(e)=>{
        e.preventDefault()
+       if(isEmpty(name) ||isEmpty(email)|| isEmpty(message)) {
+           seterror(true)
+           return;
+       }
        setButton(true)
        setEmailSent(true)
-       setName('')
-       setEmail('')
-       setMessage('')
    }
 
     return (
@@ -33,7 +39,7 @@ const Contact = () => {
                <button className='button'>Shoot</button>
                {EmailSent&&<p>Email successfully sent</p>}
                {EmailSent===false&&<p>Message not sent</p>} 
-        
+               {error && <p>Input must not be empty</p>}  
            </form>
         </div>
     )
