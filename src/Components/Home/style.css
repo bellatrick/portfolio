@@ -17,19 +17,22 @@
 
 }
 .link:hover{
-    background: indigo;
+    background: linear-gradient(80deg,#DC3F89 0%,#903EDD 100%);
     color: white;
 }
 .linkDiv{
-    margin: 120px auto;
+    margin: 80px auto;
 }
 .img img{
-    width: 50%;
-    height: 40%;
+    width: 30%;
+    height: 20%;
     border-radius: 100%;
 }
+.header{
+    margin: 30px auto;
+}
 .title p{
-    line-height: 70px;
+
     font-family: cursive;
 }
 .title h6{

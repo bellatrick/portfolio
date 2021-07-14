@@ -1,10 +1,10 @@
 import React, {useState}  from 'react'
 import './styles.css'
-import {Link} from 'react-router-dom'
+import {Link, useLocation} from 'react-router-dom'
 
 const Navbar = () => {
     const [open, setOpen] =useState(false)
-    
+    const location = useLocation()
     const handleClose = ()=>{
           setOpen(false)
     }
@@ -19,19 +19,31 @@ const Navbar = () => {
                   <div className='icon' style={{opacity: open?1:0}} onClick={()=>setOpen(!open)}><i className='fa fa-times'></i></div>
                   <ul style={{left: open?'0':'-100vh'}}>
                    <li>
-                    <Link to ='/' onClick={handleClose}>Home</Link>
+                    <Link to ='/' onClick={handleClose}
+                    style={{background: location.pathname==='/' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}
+                    >Home
+                    </Link>
                    </li>
 
                    <li>
-                    <Link to ='/about' onClick={handleClose}>Resume</Link>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
                    </li>
 
                    <li>
-                    <Link to ='/works' onClick={handleClose}>Works</Link>
+                    <Link to ='/works' onClick={handleClose}
+                    style={{background: location.pathname==='/works' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Works
+                   </Link>
                    </li>
 
                    <li>
-                    <Link to ='/contact-me' onClick={handleClose}>Contact me</Link>
+                    <Link to ='/contact-me' onClick={handleClose}
+                    style={{background: location.pathname==='/contact-me' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Contact me
+                   </Link>
                    </li>
                   </ul>
                </div>

@@ -1,6 +1,8 @@
 .about{
     flex-grow: 1;
     text-align: start;
+    margin-top: -50px;
+    max-width: 900px;
     
 }
 .about h1{
@@ -9,6 +11,24 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family:  cursive;
+    font-size: 23px;
+}
+.name{
+    display: inline-block;
+    margin-left: 10px;
+}
+.about img{
+    border-radius: 100%;
+    margin-bottom: -15px;
+}
+.about h4{
+    color: indigo;
+    font-size: 21.5px;
+    line-height: 40px;
+}
+.subDiv{
+    font-size: 15.5px;
+    line-height: 25px;
 }
 .aboutDiv{
 font-size: 19px;
@@ -18,4 +38,12 @@ margin: 10px auto;
     color: white;
     font-size: 16px;
 
+}
+@media(max-width: 800px){
+    .about p{
+      font-size: 16px;
+    }
+    .fa-circle{
+        font-size: 12px;
+    }
 }

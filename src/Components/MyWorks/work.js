@@ -1,15 +1,17 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
-const Work = ({name, language, description}) => {
+
+const Work = ({name, language, description, live, code}) => {
     return (
         <div className='work'>
            <h3>{name}</h3> 
-           <p>{language}</p>
+           <p className='language'>{language}</p>
            <p>{description}</p>
          <div className='codeLink'>
-         <p><i className='fa fa-eye'></i> <Link to='/millionaire'>Live</Link></p>
-         <p><i className='fa fa-code'></i>   Code</p>
+          <a href={code} target='_blank' rel="noreferrer"> <p><i className='fa fa-code'></i> Code</p></a>
+        <a href={live} target='_blank' rel="noreferrer"><p><i className='fa fa-eye'></i>   Live</p></a> 
+
+       
          </div>
         </div>
     )

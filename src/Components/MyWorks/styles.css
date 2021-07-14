@@ -1,25 +1,36 @@
 .work{
     background-color: #101049;
     border-radius: 12px;
-    margin-bottom: 60px;
-    padding: 60px;
+    padding: 40px;
+    max-width: 350px;
+    margin: 10px auto 60px auto;
 }
 .works{
     display: flex;
     flex-direction: column;
 
 }
+.work .language{
+    line-height: 50px;
+}
 .codeLink{
     display: flex;
+    margin-top: 20px;
     justify-content: space-between;
 }
+ .work h3{
+     line-height: 48px;
+ }
 .codeLink p:hover{
     color: #0a0a18;
     font-weight: bolder;
     transform: scale(1.6);
     cursor: pointer;
 }
-
+a{
+    color: purple;
+    font-weight: bolder;
+}
 @media (min-width: 800px){
   .works{
       display: grid;
