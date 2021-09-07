@@ -26,7 +26,7 @@ const works = () => {
             <Work name={'Landing page'}
                 language={'Next js'}
                 description={'A fully responsive landing page for a start-up company.'}
-                live={"belladevnextjslanding.netlify.app"}
+                live={"https://belladevnextjslanding.netlify.app"}
                 code={'https://github.com/bellatrick/nextjs-landing'}
           />
           <Work name={'Who wants to be a millionaire'}
