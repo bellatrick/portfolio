@@ -28,7 +28,10 @@
 }
 .subDiv{
     font-size: 15.5px;
-    line-height: 25px;
+    line-height: 30px;
+}
+.subDiv p{
+    line-height:22px;
 }
 .aboutDiv{
 font-size: 19px;

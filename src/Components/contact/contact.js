@@ -18,6 +18,18 @@ const Contact = () => {
            seterror(true)
            return;
        }
+       fetch(
+        "https://react-chat-6b90f-default-rtdb.firebaseio.com/portfolio.json",
+        {
+          method: "POST",
+          body: JSON.stringify({email, name,message}),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      )
+        .then(function (response) {})
+        .catch((error) => console.log(error));
        setButton(true)
        setEmailSent(true)
    }

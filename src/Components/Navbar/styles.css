@@ -68,7 +68,7 @@
     color: white;
     transition: all 0.5s ease-in-out;
     text-decoration: none;
-    font-family: cursive;
+    
 }
 .NavList ul li a:hover{
     background: indigo
