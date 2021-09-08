@@ -8,7 +8,7 @@ const works = () => {
             <Work name={'Rexha E-Commerce'}
                 language={'React, and Commerce js'}
                 description={'An E-market app where users can add items to their cart and checkout their products'}
-                live={"https://rexhagroup.netlify.app"}
+                live={"https://rexagroup.netlify.app"}
                 code={'https://github.com/bellatrick/react-ecommerce'}
           />
            <Work name={'Hulu clone'}
