@@ -31,10 +31,7 @@
 .header{
     margin: 30px auto;
 }
-.title p{
 
-    font-family: cursive;
-}
 .title h6{
    line-height: 40px;
 }
@@ -47,6 +44,10 @@
 }
 .title h6{
     max-width: 600px;
+}
+.title p{
+
+    font-family: cursive;
 }
 .img img{
     width: 60%;

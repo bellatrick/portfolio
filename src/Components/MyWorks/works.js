@@ -5,6 +5,12 @@ import './styles.css'
 const works = () => {
     return (
         <div className='works'>
+          <Work name={'Social Media App'}
+                language={'React, GraphQl and MERN'}
+                description={'A social media app that allows you to register, create posts, write and like comments on posts'}
+                live={"https://belladevsocials.netlify.app"}
+                code={'https://github.com/bellatrick/merng-client'}
+          />
             <Work name={'Rexha E-Commerce'}
                 language={'React, and Commerce js'}
                 description={'An E-market app where users can add items to their cart and checkout their products'}
