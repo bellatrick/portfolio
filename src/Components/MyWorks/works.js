@@ -38,8 +38,10 @@ const works = () => {
             <Work name={'Landing page'}
                 language={'Next js'}
                 description={'A fully responsive landing page for a start-up company.'}
+
                 live={"doolclone.netlify.app"}
                 code={'https://github.com/bellatrick/diool_clone.git'}
+
           />
           <Work name={'Who wants to be a millionaire'}
                 language={'Vanilla javascript + CSS'}
