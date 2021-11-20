@@ -23,17 +23,23 @@ const works = () => {
                 live={"https://huluclone-l3sn6o9fh-bellatrick.vercel.app/"}
                 code={'https://github.com/bellatrick/huluclone'}
           />
-           <Work name={'Chat app'}
+           {/* <Work name={'Chat app'}
                 language={'React JS  Ionic and firebase'}
                 description={'A real time web and mobile chat application built with react js and ionic framework and firebase for the backend.'}
                 live={"https://ionicchat.netlify.app"}
                 code={'https://github.com/bellatrick/mainIonicChat'}
+          /> */}
+            <Work name={'Dool Landing Page'}
+                language={'React'}
+                description={'A fully responsive landing page of a web app'}
+                live={"https://belladevsocials.netlify.app"}
+                code={'https://github.com/bellatrick/merng-client'}
           />
             <Work name={'Landing page'}
                 language={'Next js'}
                 description={'A fully responsive landing page for a start-up company.'}
-                live={"belladevnextjslanding.netlify.app"}
-                code={'https://github.com/bellatrick/nextjs-landing'}
+                live={"doolclone.netlify.app"}
+                code={'https://github.com/bellatrick/diool_clone.git'}
           />
           <Work name={'Who wants to be a millionaire'}
                 language={'Vanilla javascript + CSS'}

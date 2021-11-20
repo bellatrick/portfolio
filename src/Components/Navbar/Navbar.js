@@ -17,7 +17,7 @@ const Navbar = () => {
                <div className='NavList'>
                   <div className='icon' style={{opacity: !open?1:0}} onClick={()=>setOpen(!open)}><i className='fa fa-bars'></i></div>
                   <div className='icon' style={{opacity: open?1:0}} onClick={()=>setOpen(!open)}><i className='fa fa-times'></i></div>
-                  <ul style={{left: open?'0':'-100vh'}}>
+                  <ul style={{left: open?'0':'-110vh'}}>
                    <li>
                     <Link to ='/' onClick={handleClose}
                     style={{background: location.pathname==='/' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}
@@ -26,6 +26,57 @@ const Navbar = () => {
                    </li>
 
                    <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>
+                   <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>  <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>  <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>  <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>  <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>  <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>  <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>  <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>  <li>
+                    <Link to ='/about' onClick={handleClose}
+                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
+                        Resume
+                    </Link>
+                   </li>  <li>
                     <Link to ='/about' onClick={handleClose}
                     style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
                         Resume

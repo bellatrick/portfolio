@@ -5,18 +5,19 @@ import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/about'
 import Contact from './Components/contact/contact'
 import Works from './Components/MyWorks/works'
+import {useState} from 'react'
 function App() {
+  const [show, setshow] = useState(true)
   return (
     <Router>
       <div className="App">
       <Navbar/>
-      <Switch>
-      
+      <Switch>  
         <Route exact path ='/' component={Home}/>
         <Route exact path ='/about' component={About}/>
         <Route exact path ='/works' component={Works}/>
         <Route exact path ='/contact-me' component={Contact}/>
-        <Route exact path ='/millionaire' render={()=>(<Redirect to='https://samuelbusayojsproject.netlify.app'/>)} />
+        
       </Switch>
       </div>
     </Router>
