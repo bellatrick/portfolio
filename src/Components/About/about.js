@@ -22,7 +22,7 @@ const about = () => {
         <p>University of Ilorin</p>
         <p>2014-2018</p>
         <h4>Projects</h4>
-        <p>Links to my works can be found <Link to='/works'>here</Link></p>
+        <p>Links to my works can be found <Link to='/works'>here.</Link>I can also be contacted at Busayosamuel2016@gmail.com. </p>
          </section>
         </div>
     )
