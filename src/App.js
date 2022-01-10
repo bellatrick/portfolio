@@ -7,7 +7,7 @@ import Contact from './Components/contact/contact'
 import Works from './Components/MyWorks/works'
 import {useState} from 'react'
 function App() {
-  const [show, setshow] = useState(true)
+ 
   return (
     <Router>
       <div className="App">
