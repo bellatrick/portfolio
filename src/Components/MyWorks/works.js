@@ -37,9 +37,9 @@ const works = () => {
           /> */}
             <Work name={'Dool Landing Page'}
                 language={'React'}
-                description={'A fully responsive landing page of a web app'}
-                live={"https://belladevsocials.netlify.app"}
-                code={'https://github.com/bellatrick/merng-client'}
+                description={'A fully responsive landing page clone of Dool web app'}
+                live={"https://doolclone.netlify.app"}
+                code={'https://github.com/bellatrick/diool_clone'}
           />
             <Work name={'Landing page'}
                 language={'Next js'}
