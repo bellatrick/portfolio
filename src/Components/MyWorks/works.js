@@ -11,6 +11,12 @@ const works = () => {
                 live={"https://belladevsocials.netlify.app"}
                 code={'https://github.com/bellatrick/merng-client'}
           />
+                <Work name={'Angel E-Commerce'}
+                language={'React, GraphQL, MongoDB and Node JS'}
+                description={'An dual country food market app that uses Graphql and node js at the backend'}
+                live={"https://foodcommerceng.netlify.app"}
+                code={'https://github.com/bellatrick/foodcommerce-frontend'}
+          />
             <Work name={'Rexha E-Commerce'}
                 language={'React, and Commerce js'}
                 description={'An E-market app where users can add items to their cart and checkout their products'}
