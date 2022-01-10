@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/about'
 import Contact from './Components/contact/contact'
 import Works from './Components/MyWorks/works'
-import {useState} from 'react'
+
 function App() {
  
   return (
