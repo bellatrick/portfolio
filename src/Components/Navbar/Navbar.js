@@ -30,58 +30,7 @@ const Navbar = () => {
                     style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
                         Resume
                     </Link>
-                   </li>
-                   <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>  <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>  <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>  <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>  <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>  <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>  <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>  <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>  <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>  <li>
-                    <Link to ='/about' onClick={handleClose}
-                    style={{background: location.pathname==='/about' && 'linear-gradient(80deg,#DC3F89 0%,#903EDD 100%)'}}>
-                        Resume
-                    </Link>
-                   </li>
+                   </li>  
 
                    <li>
                     <Link to ='/works' onClick={handleClose}
