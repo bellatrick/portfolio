@@ -86,6 +86,7 @@
         position: absolute;
         right: -560px;
         top: 20px;
+        overflow:hidden;
     }
     .navContainer{
         display: inline-block;
